@@ -1,0 +1,65 @@
+! special colors
+*.foreground:  #c8c8c8
+*.background:  #282c34
+*.cursorColor:  #a39e9b
+
+! black
+*.color0:       #282828
+*.color8:       #585858
+! red
+*.color1:       #de5d6e
+*.color9:       #fa7883
+! green
+*.color2:       #76a85d
+*.color10:      #98c379
+! yellow
+*.color3:       #ff9470
+*.color11:      #ffc387
+! blue
+*.color4:       #5890f8
+*.color12:      #6bb8ff
+! magenta
+*.color5:       #c173d1
+*.color13:      #e799ff
+! cyan
+*.color6:       #64b5a7
+*.color14:      #8af5ff
+! white
+*.color7:       #888888
+*.color15:      #c8c8c8
+
+URxvt*scrollBar:         false
+URxvt*scrollBar_right:   false
+URxvt.iso14755: false
+URxvt.font: xft:CaskaydiaCove Nerd Font:pixelsize=17,xft:DejaVu Sans Mono Nerd Font:pixelsize=12,xft:Symbola:pixelsize=11,xft:Noto Emoji:minspace=False
+URxvt.letterSpace: 0
+URxvt.transparent: true URxvt.shading:50
+
+*antialias:  true
+*autohint:   true
+
+! Restore Ctrl+Shift+(c|v)
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+!URxvt.iso14755: false
+URxvt.iso14755_52: false
+
+! Common navigation  Keybinds
+
+URxvt.keysym.Shift-Up: command:\033]720;1\007
+URxvt.keysym.Shift-Down: command:\033]721;1\007
+URxvt.keysym.Control-Up: \033[1;5A
+URxvt.keysym.Control-Down: \033[1;5B
+URxvt.keysym.Control-Right: \033[1;5C
+URxvt.keysym.Control-Left: \033[1;5D
+
+!! Copy, Paste + More
+
+URxvt.perl-ext-common: default,clipboard,url-select,keyboard-select
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
+URxvt.keysym.M-s: perl:keyboard-select:search
+URxvt.keysym.M-u: perl:url-select:select_next
+URxvt.urlLauncher: firefox
+URxvt.underlineURLs: true
+URxvt.urlButton: 2 
+URxvt.url-select.autocopy:true
