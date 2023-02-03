@@ -33,7 +33,7 @@ URxvt*scrollBar_right:   false
 URxvt.iso14755: false
 URxvt.font: xft:CaskaydiaCove Nerd Font:pixelsize=17,xft:DejaVu Sans Mono Nerd Font:pixelsize=12,xft:Symbola:pixelsize=11,xft:Noto Emoji:minspace=False
 URxvt.letterSpace: 0
-URxvt.transparent: true URxvt.shading:50
+URxvt.transparent: true URxvt.shading:60
 
 *antialias:  true
 *autohint:   true
