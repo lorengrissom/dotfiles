@@ -6,3 +6,4 @@ This is some of my files
  * .zshrc
  * config
  * new
+ * git
