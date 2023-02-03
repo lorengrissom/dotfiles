@@ -23,7 +23,7 @@ call dein#end()
 filetype off
 
 " TODO: Load plugins here (pathogen or vundle)
-
+" next
 " Turn on syntax highlighting
 syntax on
 
