@@ -155,7 +155,7 @@ return {
 
   color_scheme = "OneDark (base16)",
   window_background_opacity = 0.96,
-  scrollback_lines = 10000,
+  scrollback_lines = 90000,
   initial_cols = 180,
   initial_rows = 45,
   hide_tab_bar_if_only_one_tab = true,
