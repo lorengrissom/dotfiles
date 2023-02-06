@@ -5,5 +5,4 @@ This is some of my files
  * .urlview
  * .zshrc
  * config
- * new
  * git
