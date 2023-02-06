@@ -1,0 +1,2 @@
+scp -P 22 /file/to/send username@remote:/where/to/put --{send a file from the computer your on to the remote computer}--
+scp -P 22 username@remote:/file/to/send /where/to/put --{get a file from remote computer to your computer your on}--
