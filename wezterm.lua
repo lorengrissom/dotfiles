@@ -58,6 +58,17 @@ return {
       mods = 'CTRL|ALT',
       action = act.ActivateTabRelativeNoWrap(1)
     },
+    -- Scroll up and down page
+    {
+      key = 'PageUp',
+      mods = 'SHIFT',
+      action = act.ScrollByPage(-1)
+    },
+    {
+      key = 'PageDown',
+      mods = 'SHIFT',
+      action = act.ScrollByPage(1)
+    },
   },
   font = wezterm.font 'CaskaydiaCove Nerd Font',
   color_scheme = 'OneDark (base16)',
