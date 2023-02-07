@@ -1,0 +1,5 @@
+Host <name to call it>
+  User <username of computer>
+  Port <number>
+  IdentityFile <where it is><rsa id> --not the pub
+  HostName <ip address>
