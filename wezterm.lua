@@ -51,7 +51,7 @@ return {
     {
       key = 'j',
       mods = 'CTRL|ALT',
-      action = act.ActivateTabRelativeNoWrap(-1)
+      action = act.ActivateTabRelativeNoWrap( -1)
     },
     {
       key = 'k',
@@ -62,17 +62,41 @@ return {
     {
       key = 'PageUp',
       mods = 'SHIFT',
-      action = act.ScrollByPage(-1)
+      action = act.ScrollByPage( -1)
     },
     {
       key = 'PageDown',
       mods = 'SHIFT',
       action = act.ScrollByPage(1)
     },
+    -- ToggleFullScreen
+    {
+      key = 'f',
+      mods = 'CMD',
+      action = wezterm.action.ToggleFullScreen,
+    },
+    -- Go back to original font size
+    {
+      key = '0',
+      mods = 'CTRL',
+      action = wezterm.action.ResetFontSize,
+    },
+    {
+      key = '-',
+      mods = 'CTRL',
+      action = wezterm.action.DecreaseFontSize,
+    },
+    {
+      key = '=',
+      mods = 'CTRL',
+      action = wezterm.action.IncreaseFontSize,
+    },
   },
   font = wezterm.font 'CaskaydiaCove Nerd Font',
   color_scheme = 'OneDark (base16)',
+  default_cursor_style = 'SteadyBar',
   scrollback_lines = 90000,
+  adjust_window_size_when_changing_font_size = false,
   initial_rows = 50,
   initial_cols = 200,
   use_fancy_tab_bar = false,
