@@ -81,6 +81,7 @@ return {
       mods = 'CTRL',
       action = wezterm.action.ResetFontSize,
     },
+    -- Change Font size
     {
       key = '-',
       mods = 'CTRL',
