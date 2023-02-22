@@ -1,0 +1,18 @@
+alias svim='sudo vim'
+alias clr='clear'
+alias so='source $HOME/.zshrc'
+alias irssi='screen irssi'
+alias w3m='w3m -sixel'
+alias clc='cd && clr'
+alias rm='rm -r'
+alias cp='cp -r'
+alias pa='pkill pa-applet'
+alias xq='xbps-query -Rs'
+alias scr='cd ~/.local/scripts/'
+alias ls='exa --icons -a --group --group-directories-first'
+alias la='exa --icons -a --group --group-directories-first --long'
+
+export OPENER=xdg-open
+export BROWSER='qutebrowser'
+export VISUAL='nvim'
+export TERMINAL='wezterm'
