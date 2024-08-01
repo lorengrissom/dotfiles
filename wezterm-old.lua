@@ -30,22 +30,22 @@ config.keys = {
 	-- This lets you move between windows
 	{
 		key = "h",
-		mods = "ALT",
+		mods = "CTRL",
 		action = act.ActivatePaneDirection("Left"),
 	},
 	{
 		key = "l",
-		mods = "ALT",
+		mods = "CTRL",
 		action = act.ActivatePaneDirection("Right"),
 	},
 	{
 		key = "k",
-		mods = "ALT",
+		mods = "CTRL",
 		action = act.ActivatePaneDirection("Up"),
 	},
 	{
 		key = "j",
-		mods = "ALT",
+		mods = "CTRL",
 		action = act.ActivatePaneDirection("Down"),
 	},
 	-- Move between tabs
@@ -102,8 +102,7 @@ config.keys = {
 
 config.font = wezterm.font("CaskaydiaCove Nerd Font")
 config.font_size = 17
-config.color_scheme = "Catppuccin Mocha (Gogh)"
--- config.color_scheme = "Tokyo Night"
+config.color_scheme = "Nightfly (Gogh)"
 config.default_cursor_style = "SteadyBar"
 config.window_decorations = "RESIZE"
 config.animation_fps = 60
@@ -112,9 +111,7 @@ config.adjust_window_size_when_changing_font_size = false
 config.initial_rows = 62
 config.initial_cols = 200
 config.use_fancy_tab_bar = false
-config.tab_bar_at_bottom = true
 config.hide_tab_bar_if_only_one_tab = true
 config.window_background_opacity = 0.93
-config.macos_window_background_blur = 20
 
 return config
